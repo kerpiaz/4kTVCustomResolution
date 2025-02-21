@@ -3,19 +3,35 @@
 Your 4K TV is handling 3840×2160 @ 120Hz, which is ~32 Gbps bandwidth.
 ---
 
-### **📜 Custom Resolutions for 4K TVs (16:9) with AMD Radeon GPUs**
+### **📜 Using a 4K TV as a Monitor – Why & How?**  
 **Last Updated:** 2025  
 
-This guide explains how to **create custom ultrawide resolutions** on a **4K 120Hz TV using an AMD Radeon GPU** (tested on Radeon 5700G iGPU). 
-It may work with Intel or Nvidia GPU's, but I have not tested with them, but I don't see why it shouldn't work too!
+This guide explains how to **customize resolutions** on a **4K 120Hz TV using an AMD Radeon GPU** (tested on Radeon 5700G iGPU).  
 
 ---
 
-## **🖥️ Why Do This?**
-4K TVs are **always 16:9**, but some users want to use only **a portion of the screen** for a **1:1 pixel-mapped** ultrawide or standard monitor layout. This allows:  
-✅ **Ultrawide gaming (21:9 or 32:9) without stretching**  
-✅ **Better workspace organization (dual/triple monitor simulation)**  
-✅ **Lower GPU load by rendering only a portion of the screen**  
+## **🖥️ Why Use a 4K TV as a Monitor?**
+Modern high-end **4K TVs with 120Hz (or higher) refresh rates** have become an **excellent alternative to gaming & productivity monitors**. If you're sitting at the right distance, a **55" or 65" 4K TV can replace multiple monitors** while offering **better colors, contrast, and HDR performance**.  
+
+✅ **Bigger Screen = More Productivity & Immersion**  
+✅ **Mini-LED & OLED TVs offer superior HDR vs. most monitors**  
+✅ **Perfect for gaming, movies, and multitasking**  
+✅ **Higher resale value** – TVs retain value better than monitors  
+✅ **More versatile** – Use it for **PC, consoles, streaming & home theater**  
+
+If your setup allows you to **sit further away (sofa, reclining chair, or desk with deep viewing distance)**, a 4K TV **with a wireless keyboard, mouse, or controller** offers a **more flexible and immersive experience** compared to **smaller, single-purpose monitors**.  
+
+💡 **Example Use Cases:**  
+- **Work & Productivity:** Split-screen multitasking (two 1440p windows side by side)  
+- **Gaming:** 120Hz refresh rate & **lower latency on HDMI 2.1 TVs**  
+- **Entertainment:** Switch between PC, console, and streaming apps  
+
+### **🔹 The Problem: TVs Are Always 16:9**
+The biggest issue? **Not all applications need full 4K resolution**, and **not everyone wants to use the entire screen all the time**.  
+- Some games & work setups **work better in ultrawide (21:9) or dual-monitor (32:9) mode**.  
+- Some people **want to use only a smaller portion** of the TV **as a single 27" monitor equivalent**.  
+
+This guide **fixes that problem** by explaining **how to set custom resolutions** and use the TV **like multiple monitors in one!** 🎯  
 
 ---
 
@@ -75,21 +91,6 @@ TV firmware sometimes **rejects ultrawide resolutions at 120Hz**, but once appli
 
 🔹 **Lower Refresh Rate = More Compatible Custom Resolutions**  
 🔹 **HDMI 2.1 or DisplayPort 1.4 needed for 4K 120Hz & ultrawide**  
-
----
-
-## **🛠️ Step 3: Fixing Issues**
-**🔴 Problem: Custom resolution fails to add (Pixel Clock stays red)**  
-✅ Use **CVT-RB2** (even lower blanking)  
-✅ Lower refresh rate to **60Hz**, then manually increase  
-
-**🔴 Problem: TV stretches ultrawide resolution instead of letterboxing**  
-✅ Set **Scaling Mode** to **Preserve Aspect Ratio** in AMD settings  
-✅ Look for **"Screen Fit" or "1:1 Mode"** in TV settings  
-
-**🔴 Problem: Flickering or black screen when switching to 120Hz**  
-✅ Lower refresh rate to **100Hz or 90Hz**  
-✅ Try **Custom Resolution Utility (CRU)** to adjust blanking values  
 
 ---
 
